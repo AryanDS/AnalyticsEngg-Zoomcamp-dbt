@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data source for NYC green and yellow taxi's dataset"
+    database: rising-timing-485623-d3
+    schema: nytaxi
+    tables:
+      - name: green-taxi-data-module4-partitioned
+      - name: yellow-taxi-data-module4-partitioned
